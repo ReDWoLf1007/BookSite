@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="shopStyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="icon" href="img/logoTitle.png">
+  <script src="shop.js" async></script>
+
+  <title> Book Mela | &nbsp;Book Collections</title>
+</head>
+
+<body onload="allBtnClickOnload()">
+  <!-- NAVBAR -->
+  <section id="header">
+    <a href="#"><img src="img/logo.png" alt="" width="200px" height="40px"/></a>
+
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="shop.html">Shop</a></li>
+        <li><a href="sell.html">Sell</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li id="lg-bag">
+          <a href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a>
+        </li>
+        <a href="#" id="close"><i class="fa fa-times"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a>
+      <i id="bar" class="fas fa-outdent"></i>
+    </div>
+  </section>
+
+  <!-- Hero -->
+  <section id="page-header">
+
+    <h2>BOOK MELA</h2>
+
+    <p>Save more with coupons & upto 70 % off!</p>
+
+  </section>
+
+  <!-- Filter buttons -->
+  <section id="filter-buttons-container" class="">
+    <div class="filter-title">
+      <h1>Book Collections</h1>
+    </div>
+    <div class="filter-buttons filter-button-group">
+      <button type="button" id="allItemsBtn"class="normal" data-filter="*">All</button>
+      <button type="button" class="normal" data-filter=".romance">Romance</button>
+      <button type="button" class="normal" data-filter=".scifi">SciFi</button>
+      <button type="button" class="normal" data-filter=".thriller">Thriller</button>
+      <button type="button" class="normal" data-filter=".nonfiction">Non-Fiction</button>
+      <button type="button" class="normal" data-filter=".actionadventure">Action/Adventure</button>
+      <button type="button" class="normal" data-filter=".crimemystery">Crime/Mystery</button>
+    </div>
+
+  </section>
+
+  <!-- Products -->
+
+
+  <section id="product1" class="section-p1">
+
+    <div class="pro-container">     
+
+      <div class="pro romance">
+        <img src="img/books/Romance/frenchkissinginnewyork.jpg" alt="" />
+        <div class="des">
+          <span>Anne Sophie Jouhanneau</span>
+          <h5>French Kissing in New York</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 229</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro thriller">
+        <img src="img/books/Thriller/AFlickerintheDark.jpeg" alt="" />
+        <div class="des">
+          <span>Stacy Willingham</span>
+          <h5>A Flicker in the Dark</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 249</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro crimemystery">
+        <img src="img/books/Crime & Mystery/FiveLittleLiars.jpg" alt="" />
+        <div class="des">
+          <span>Amanda K. Morgan</span>
+          <h5>Five Little Liars</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 299</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro scifi">
+        <img src="img/books/SciFi/ADesolationCalledPeace.webp" alt="" />
+        <div class="des">
+          <span>Arkady Martine</span>
+          <h5>A Desolation Called Peace</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 389</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro romance">
+        <img src="img/books/Romance/LoveUnscripted.jpg" alt="" />
+        <div class="des">
+          <span>Owen Nicholls</span>
+          <h5>Love Unscripted</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 259</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro thriller">
+        <img src="img/books/Thriller/Don’tTurnAroundbyJessicaBarry.webp" alt="" />
+        <div class="des">
+          <span>Jessica Barry</span>
+          <h5>Don't Turn Around</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹349</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro romance">
+        <img src="img/books/Romance/NeverEverGettingBackTogether.jpg" alt="" />
+        <div class="des">
+          <span>Sophie Gonzales</span>
+          <h5>Never Ever Getting Back Together</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 379</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+
+
+
+      <div class="pro nonfiction">
+        <img src="img/books/Non-Fiction/a council of dolls.webp" alt="" />
+        <div class="des">
+          <span>Mona Susan Power</span>
+          <h5>A Council of Dolls</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 219</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro crimemystery">
+        <img src="img/books/Crime & Mystery/KeepThistoYourself.webp" alt="" />
+        <div class="des">
+          <span>Tom Ryan</span>
+          <h5>Keep This to Yourself</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 399</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro romance">
+        <img src="img/books/Romance/PrideandProtest.jpg" alt="" />
+        <div class="des">
+          <span>Nikki Payne</span>
+          <h5>Pride and Protest</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 359</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro nonfiction">
+        <img src="img/books/Non-Fiction/AmericanDemon.webp" alt="" />
+        <div class="des">
+          <span>Daniel Stashower</span>
+          <h5>American Demon</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 199</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro actionadventure">
+        <img src="img/books/Action & Adventure/BridgetoTeabithia.jpg" alt="" />
+        <div class="des">
+          <span>Katherine Peterson</span>
+          <h5>Bridge to Terabithia</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 399</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro romance">
+        <img src="img/books/Romance/TheAmericanRoommateExperimentbyElenaArmas.jpg" alt="" />
+        <div class="des">
+          <span>Elena Armas</span>
+          <h5>The American Roommate Experiment</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 379</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro actionadventure">
+        <img src="img/books/Action & Adventure/DarkHeir.jpg" alt="" />
+        <div class="des">
+          <span>C. S. Pacat</span>
+          <h5>Dark Heir</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 289</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro romance">
+        <img src="img/books/Romance/TheDeadRomantics.jpg" alt="" />
+        <div class="des">
+          <span>Ashley Poston</span>
+          <h5>The Dead Romantics</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 329</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro scifi">
+        <img src="img/books/SciFi/ChildrenOfMemory.webp" alt="" />
+        <div class="des">
+          <span></span>
+          <h5>Children of Memory</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 339</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro nonfiction">
+        <img src="img/books/Non-Fiction/getting-the-love-you-want.jpg" alt="" />
+        <div class="des">
+          <span>Harville Hendrix</span>
+          <h5>Getting the Love You Want</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 499</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro actionadventure">
+        <img src="img/books/Action & Adventure/HoneymoontoDiefor.jpg" alt="" />
+        <div class="des">
+          <span>Dianna Love</span>
+          <h5>Honeymoon to Die For</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 599</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro crimemystery">
+        <img src="img/books/Crime & Mystery/MurderoftheOrientExpress.webp" alt="" />
+        <div class="des">
+          <span>Agatha Christie</span>
+          <h5>Murder of the Orient Express</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 459</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro thriller">
+        <img src="img/books/Thriller/Gone Girl book cover.webp" alt="" />
+        <div class="des">
+          <span>Gillian Flynn</span>
+          <h5>Gone Girl</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 489</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro romance">
+        <img src="img/books/Romance/TheSpanishLoveDeception.jpg" alt="" />
+        <div class="des">
+          <span>Elena Armas</span>
+          <h5>The Spanish Love Deception</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 359</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro crimemystery">
+        <img src="img/books/Crime & Mystery/OneofusisLying.jpg" alt="" />
+        <div class="des">
+          <span>Karen M. McManus</span>
+          <h5>One Of Us Is Lying</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 399</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro romance">
+        <img src="img/books/Romance/we-could-be-so-good-3.jpg" alt="" />
+        <div class="des">
+          <span>Cat Sebastian</span>
+          <h5>We Could Be So Good</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 529</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+
+
+      <div class="pro nonfiction">
+        <img src="img/books/Non-Fiction/HowLifeWorks.webp" alt="" />
+        <div class="des">
+          <span>Philip Ball</span>
+          <h5>How Life Works</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 999</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro romance">
+        <img src="img/books/Romance/YouveReachedSam.webp" alt="" />
+        <div class="des">
+          <span>Dustin Thao</span>
+          <h5>You've Reached Sam</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 399</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro scifi">
+        <img src="img/books/SciFi/ChosenSpirits.webp" alt="" />
+        <div class="des">
+          <span>Samit Basu</span>
+          <h5>Chosen Spirits</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 419</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+      <div class="pro thriller">
+        <img src="img/books/Thriller/IamWatchingYou.jpg" alt="" />
+        <div class="des">
+          <span>teresa Driscoll</span>
+          <h5>I am Watching You</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 329</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+      <div class="pro actionadventure">
+        <img src="img/books/Action & Adventure/LandsofLostBorders.jpg" alt="" />
+        <div class="des">
+          <span>Kate Harris</span>
+          <h5>Lands of Lost Borders</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>₹ 429</h4>
+        </div>
+        <i class="fa fa-shopping-cart cart"></i>
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+  <!-- Pagination --> 
+
+  <!-- <section id="pagination" class="section-p1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"><i class="fa fa-long-arrow-alt-right"></i></a>
+
+  </section> -->
+
+  <!-- Newsletter -->
+
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign up For Newsletter</h4>
+      <p>
+        Get E-mail updates about our latest book releases and
+        <span>special offer.</span>
+      </p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="Your email address" />
+      <button class="normal">Sign up</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="img/logo.png" alt="logo" width="200px" height="40px"/>
+      <h4>Contact</h4>
+      <p><b>Address:</b> Chauras, Srinagar, Uttarakhand</p>
+      <p><b>Phone:</b> +01 2222 365 / (+91) 01 2345 6789</p>
+      <p><b>Hours:</b> 10:00 - 18:00, Mon - Sat</p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class="fab fa-linkedin" style="font-size:18px"
+            onclick="window.location.href='www.linkedin.com/in/sagar-tiwari-9024a9219';"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="about.html">About us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="contact.html">Contact us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="cart.html">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="about.html">Help</a>
+    </div>
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <img src="img/pay/app.jpg" alt="" />
+        <img src="img/pay/play.jpg" alt="" />
+      </div>
+      <p>Secured Payment Gateway</p>
+      <img src="img/pay/pay.png" alt="" />
+    </div>
+    <div class="copyright">
+      <p>© 2023-2024 BookMela.com - E-Commerce Project Made by <span style="cursor: pointer;"
+          onclick="window.location.href='www.linkedin.com/in/sagar-tiwari-9024a9219';"><b>Group 3<b> &nbsp;</span> <i
+          style="color:#0071ac;font-size:18px;position: relative;top:1px;cursor: pointer;" class="fab fa-linkedin"
+          onclick="window.location.href='www.linkedin.com/in/sagar-tiwari-9024a9219/';"></i>
+      </p>
+    </div>
+  </footer>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- Isotope -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+
+
+
+  <!-- Custom JS file -->
+  <script src="script.js"></script>
+
+  <script>
+    // Shop Page Isotope Filter
+
+    // init Isotope
+    var $grid = $('.pro-container').isotope({
+      // options
+    });
+    // filter items on button click
+    $('.filter-button-group').on('click', 'button', function ()
+    {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+      // $grid.isotope({ layoutMode: 'fitColumns' });
+
+    });
+  </script>
+</body>
+
+</html>
