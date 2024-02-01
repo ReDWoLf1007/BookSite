@@ -48,5 +48,9 @@ This file contains the frontend code for the main page or the Home page of the w
 
 ![Footer](https://github.com/ReDWoLf1007/BookSite/blob/main/BookSite/SSs/Footer.png)
 
-## 06. 
+## 06. login.css
+## 07. login.html
+## 08. script.js
+## 09. sell.html
+## 10. sellStyle.css
 
