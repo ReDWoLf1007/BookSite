@@ -78,6 +78,10 @@ It contains the overall backend structure for the website.
 
 This file contains the code for the sell page which contains the form to fill for selling books and other features.
 
+![sell page](https://github.com/ReDWoLf1007/BookSite/blob/main/BookSite/SSs/Sell.png)
+
+![sell page 2](https://github.com/ReDWoLf1007/BookSite/blob/main/BookSite/SSs/Sell%202.png)
+
 ## 10. sellStyle.css
 
 This file is used to style the sell page and decorate it for beter UI.
