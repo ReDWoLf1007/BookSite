@@ -70,6 +70,15 @@ This File contains the HTML part of the login page.
 ![SignIn Page](https://github.com/ReDWoLf1007/BookSite/blob/main/BookSite/SSs/Sign%20in.png)
 
 ## 08. script.js
+
+This file contains the backend of the main page and related pages.
+It contains the overall backend structure for the website.
+
 ## 09. sell.html
+
+This file contains the code for the sell page which contains the form to fill for selling books and other features.
+
 ## 10. sellStyle.css
+
+This file is used to style the sell page and decorate it for beter UI.
 
