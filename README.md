@@ -1,14 +1,17 @@
 # BookSite
+
 An E-commerce bookstore website that sells second hand books. It is a full functioning website created with the help of HTML, CSS and Javascript.
 There are many files needed to create this project.
 Those files are listed below with it's functions:
 
 ## 01. about.html
+
 This file contains the about page of the website that gives users the information of the owners of the website and how to reach them.
 
 ![about page](https://github.com/ReDWoLf1007/BookSite/blob/main/BookSite/SSs/About%20Us.png)
 
 ## 02. cart.html
+
 This file contains the frontend code for the cart page. Anything added to the cart is Shown using this file.
 
 ![cart page](https://github.com/ReDWoLf1007/BookSite/blob/main/BookSite/SSs/cart.png)
@@ -17,6 +20,7 @@ This file contains the frontend code for the cart page. Anything added to the ca
 This file contains the backend code for the card page, where arrangment of added items is apllied using javascipt.
 
 ## 04. contact.html
+
 This file contains the frontend code to display the concact page, where contact information is provided.
 
 ![contact page](https://github.com/ReDWoLf1007/BookSite/blob/main/BookSite/SSs/Contact%20Us.png)
@@ -44,12 +48,27 @@ This file contains the frontend code for the main page or the Home page of the w
 ##### Home page - Upcoming collection
 
 ![collection](https://github.com/ReDWoLf1007/BookSite/blob/main/BookSite/SSs/Upcoming-collection.png)
+
 ##### Home page - Footer
 
 ![Footer](https://github.com/ReDWoLf1007/BookSite/blob/main/BookSite/SSs/Footer.png)
 
 ## 06. login.css
+
+This file helps give the beaty to the login page.
+
 ## 07. login.html
+
+This File contains the HTML part of the login page.
+
+##### SignUp Page
+
+![SignUp Page](https://github.com/ReDWoLf1007/BookSite/blob/main/BookSite/SSs/Sign%20Up.png)
+
+##### SignIn Page
+
+![SignIn Page](https://github.com/ReDWoLf1007/BookSite/blob/main/BookSite/SSs/Sign%20in.png)
+
 ## 08. script.js
 ## 09. sell.html
 ## 10. sellStyle.css
